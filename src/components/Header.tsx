@@ -62,6 +62,7 @@ const Menu = () => {
                 href={callToAction.href}
                 className={`font-medium text-primary hover:text-primary`}
                 target="_blank"
+                rel="noreferrer"
               >
                 {callToAction.text}
               </a>

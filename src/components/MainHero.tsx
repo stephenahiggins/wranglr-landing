@@ -1,4 +1,5 @@
 import React from 'react';
+
 import config from '../config/index.json';
 
 const MainHero = () => {
@@ -22,7 +23,8 @@ const MainHero = () => {
               <a
                 href={mainHero.primaryAction.href}
                 className={`w-full flex items-center justify-center pr-10 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-secondary hover:white md:py-4 md:text-lg md:px-10`}
-                target='_blank'
+                target="_blank"
+                rel="noreferrer"
               >
                 {mainHero.primaryAction.text}
               </a>

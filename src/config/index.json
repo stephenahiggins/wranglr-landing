@@ -1,0 +1,103 @@
+{
+  "company": {
+    "name": "Wranglr - Big data, no problem",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "The Product",
+      "href": "product"
+    },
+    {
+      "name": "Features",
+      "href": "features"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Join the wait list",
+    "href": "https://forms.gle/W5v6iHcSgd9KsviZ7"
+  },
+  "mainHero": {
+    "title": "Big data",
+    "subtitle": "shouldn't be this hard.",
+    "description": "You don't need to learn SQL or PowerBI to get access to your organisation's data.",
+    "img": "/assets/images/master_screenshot.png",
+    "primaryAction": {
+      "text": "Join the waitlist",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Contact us",
+      "href": "mailto:info@wranglr.co"
+    }
+  },
+  "product": {
+    "title": "The data you need, when you need it.",
+    "items": [
+      {
+        "title": "Simple, drag and drop interface.",
+        "description": "Simply, drag and drop the columns you need. Wranglr will take care of the joins while you focus on the data. Need to filter, sort or modify the columns? No problem.",
+        "img": "/assets/gifs/W1.gif"
+      },
+      {
+        "title": "Easily correct mistakes.",
+        "description": "Made a mistake? No problem. The History function allows you to go back in time to any point and make changes from there. ",
+        "img": "/assets/gifs/W2.gif"
+      },
+      {
+        "title": "Inbuilt AI, just ask.",
+        "description": "With Wranglr's inbuilt AI, you can ask Wranglr to get the data you need. No need to learn SQL or PowerBi.",
+        "img": "/assets/gifs/W3.gif"
+      },
+      {
+        "title": "Support for major databases.",
+        "description": "Out of the box support for MySQL, Postgres and Snowflake, with more on the way.",
+        "img": "/assets/images/product_databases.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Latest & greatest ",
+    "subtitle": "All the best technologies out there!",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Next.js",
+        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Typescript",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "about": {
+    "title": "Hi, I'm Stephen.",
+    "subtitle": "I founded Wranglr because I wanted to bring the simplicity of spreadsheets to big data. Everywhere I've worked, I've seen everyday office heroes (Mangers, Researchers and Analysts) struggle to get access to the data they need to do their jobs. People don't have time to learn about data lakes, or pick up new skills like SQL and PowerBI. Wranglr is the big data tool for the office hero!",
+    "founderImg": {
+      "src": "/assets/images/headshot_circle.png",
+      "alt": "Stephen Higgins"
+    },
+    "socialMedia": {
+      "github": "https://#",
+      "twitter": "https://twitter.com/ste_higgins_",
+      "linkedin": "https://www.linkedin.com/in/stephen-higgins-0b4a19b0"
+    }
+  }
+}

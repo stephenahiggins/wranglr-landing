@@ -11,7 +11,7 @@ const About = () => {
     <div id="about" className="mx-10 container xl:px-20 lg:px-12 sm:px-6 px-4">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-wrap items-center justify-center">
-          <div className="w-full sm:w-2/5 p-6">
+          <div className="w-full sm:w-2/5 p-6 max-w-sm">
             <img
               className="w-full h-auto" 
               src={src}
@@ -22,7 +22,7 @@ const About = () => {
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
               {title}
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-lg" style={{"whiteSpace": "pre-wrap"}}>
               {subtitle}
             </p>
           </div>

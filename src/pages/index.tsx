@@ -11,28 +11,28 @@ import Product from '../components/Product';
 
 const App = () => {
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-background`}>
-        <div className="max-w-7xl mx-10">
-          <div className={`relative·z-10·bg-background`}>
-            <Header />
-          </div>
+    <div className="bg-background grid gap-y-16 overflow-hidden justify-items-center">
+      <div className="relative bg-background w-full">
+        <div className="max-w-7xl mx-auto">
+          <Header />
         </div>
       </div>
       <MainHero />
-      <HorizontalRule />
       <LazyShow>
         <>
+        <HorizontalRule />
           <Product />
           <HorizontalRule />
         </>
       </LazyShow>
-      {/* <LazyShow>
+      {/* Uncomment and modify this section if Features component is added later
+      <LazyShow>
         <>
           <Features />
           <HorizontalRule />
         </>
-      </LazyShow> */}
+      </LazyShow>
+      */}
       <LazyShow>
         <>
           <About />

@@ -9,7 +9,9 @@
     "package-lock.json": true
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+  "html.format.wrapLineLength": 100,
+  "prettier.disableLanguages": ["html"],
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
     "source.fixAll.eslint"
@@ -23,5 +25,8 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.language": "en,en-GB"
+  "cSpell.language": "en,en-GB",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

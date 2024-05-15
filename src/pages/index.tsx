@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import About from '../components/About';
-import Analytics from '../components/Analytics';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import HorizontalRule from '../components/HorizontalRule';
-import LazyShow from '../components/LazyShow';
-import MainHero from '../components/MainHero';
-import Product from '../components/Product';
+import About from "../components/About";
+import Analytics from "../components/Analytics";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import HorizontalRule from "../components/HorizontalRule";
+import LazyShow from "../components/LazyShow";
+import MainHero from "../components/MainHero";
+import Product from "../components/Product";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <MainHero />
       <LazyShow>
         <>
-        <HorizontalRule />
+          <HorizontalRule />
           <Product />
           <HorizontalRule />
         </>

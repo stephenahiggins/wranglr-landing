@@ -1,5 +1,4 @@
 import React from "react";
-
 import config from "../config/index.json";
 
 const MainHero = () => {
@@ -29,10 +28,10 @@ const MainHero = () => {
                 {mainHero.primaryAction.text}
               </a>
             </div>
-            <div className="">
+            <div className="flex items-center justify-center ml-4 px-5">
               <a
                 href={mainHero.secondaryAction.href}
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-white hover:bg-primary md:py-4 md:text-lg md:px-10"
+                className="text-base font-medium text-secondary hover:underline md:text-lg"
               >
                 {mainHero.secondaryAction.text}
               </a>

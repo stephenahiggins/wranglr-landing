@@ -89,7 +89,7 @@
   },
   "about": {
     "title": "Hi, I'm Stephen.",
-    "subtitle": "I founded Wranglr because I wanted to bring the simplicity of spreadsheets to big data.\nEverywhere I've worked, I've seen everyday office heroes (Mangers, Researchers and Analysts) struggle to get access to the data they need to do their jobs.\nEmployees don't have time to learn about data lakes, or pick up new skills like SQL and PowerBI.\n\nWranglr is the big data tool for the office hero!",
+    "subtitle": "I founded Wranglr because I wanted to bring the simplicity of spreadsheets to big data.\n\nEverywhere I've worked, I've seen everyday office heroes (Mangers, Researchers and Analysts) struggle to get access to the data they need to do their jobs.\n\nEmployees don't have time to learn about data lakes, or pick up new skills like SQL and PowerBI.\n\nWranglr is the big data tool for the office hero!",
     "founderImg": {
       "src": "/assets/images/headshot_circle.png",
       "alt": "Stephen Higgins"

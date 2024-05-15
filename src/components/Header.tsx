@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <>
       <svg
-        className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2`}
+        className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2 `}
         fill="currentColor"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
@@ -53,14 +53,14 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-500 hover:white"
+                  className="font-large text-gray-500 hover:white"
                 >
                   {item.name}
                 </Link>
               ))}
               <a
                 href={callToAction.href}
-                className={`font-medium text-primary hover:text-primary`}
+                className={`font-large text-primary hover:text-primary`}
                 target="_blank"
                 rel="noreferrer"
               >

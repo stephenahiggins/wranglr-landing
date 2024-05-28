@@ -63,7 +63,7 @@
         "src/components/Divider.tsx",
         "src/components/Features.tsx",
         "src/components/Footer.tsx",
-        "src/components/Header.tsx",
+        "src/components/Navigation.tsx",
         "src/components/LazyShow.tsx",
         "src/components/MainHero.tsx",
         "src/components/Pricing.tsx",

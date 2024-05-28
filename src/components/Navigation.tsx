@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 import config from "../config/index.json";
 
-const Menu = () => {
+const Navigation = () => {
   const { navigation, company, callToAction } = config;
   const { name: companyName, logo } = company;
 
@@ -128,4 +128,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Navigation;

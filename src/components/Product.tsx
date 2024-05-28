@@ -7,16 +7,16 @@ const Product = () => {
   return (
     <section className="bg-background" id="product">
       <div className="container max-w-7xl px-10">
-        <div className="flex justify-center pb-5">
+        {/* <div className="flex justify-center pb-5">
           <img
             className="w-full"
-            src="/website-wranglr-logo.jpg"
+            src={product.headerImg}
             alt="Wranglr logo"
             style={{
               maxWidth: "500px",
             }}
           />
-        </div>
+        </div> */}
         {/* <h1 className="w-full my-2 text-3xl pb-6 font-bold leading-tight text-center text-primary">
           <span className="text-border">{product.title}</span>
         </h1> */}

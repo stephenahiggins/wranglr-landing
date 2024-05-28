@@ -1,12 +1,13 @@
 import React from "react";
 import config from "../config/index.json";
+import ReactPlayer from 'react-player'
 
 const MainHero = () => {
   const { mainHero } = config;
 
   return (
     <main className="w-full mx-10 max-w-7xl px-10 pb-0 flex flex-wrap-reverse md:flex-nowrap items-center">
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 pr-4">
         <div className="hero-text-left mt-4 md:mt-0 flex flex-col items-start justify-start col-gap-8 text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">{mainHero.title}</span>{" "}
@@ -39,12 +40,19 @@ const MainHero = () => {
           </div>
         </div>
       </div>
-      <div className="md:w-1/2 sm:pr-12 lg:pr-14">
-        <img
+      <div className="player-wrapper md:w-1/2 sm:pl-10 display: contents">
+        <ReactPlayer
+          className='react-player'
+          light={<img src={mainHero.videoPlaceholderUrl}
+          alt='Wranglr logo' 
+          width='100%'
+          height='100%'
+          />} url={ mainHero.videoUrl } controls={true} />
+        {/* <img
           className="w-full object-contain"
           src={mainHero.img}
           alt="Wranglr screenshot"
-        />
+        /> */}
       </div>
     </main>
   );

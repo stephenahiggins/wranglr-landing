@@ -1,6 +1,6 @@
 import React from "react";
 import config from "../config/index.json";
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 const MainHero = () => {
   const { mainHero } = config;
@@ -40,19 +40,21 @@ const MainHero = () => {
           </div>
         </div>
       </div>
-      <div className="player-wrapper md:w-1/2 sm:pl-10 display: contents">
+      <div className="player-wrapper md:w-1/2 sm:pl-10 sm:display-contents md:display-block">
         <ReactPlayer
           className='react-player'
-          light={<img src={mainHero.videoPlaceholderUrl}
-          alt='Wranglr logo' 
+          url={mainHero.videoUrl}
+          playing={true}
+          controls={true}
+          light={<img 
+            src={mainHero.videoPlaceholderUrl}
+            alt='Wranglr logo'
+            width='100%'
+            height='100%'
+          />}
           width='100%'
           height='100%'
-          />} url={ mainHero.videoUrl } controls={true} />
-        {/* <img
-          className="w-full object-contain"
-          src={mainHero.img}
-          alt="Wranglr screenshot"
-        /> */}
+        />
       </div>
     </main>
   );

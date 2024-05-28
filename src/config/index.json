@@ -24,7 +24,7 @@
   "mainHero": {
     "title": "Big data",
     "subtitle": "shouldn't be this hard.",
-    "description": "You don't need to learn SQL or PowerBI to get access to your organisation's data.",
+    "description": "No one should need to know SQL, Python or a BI tool to get access to their organisation's data.",
     "img": "/assets/images/master_screenshot.png",
     "primaryAction": {
       "text": "Join the waitlist",

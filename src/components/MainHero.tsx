@@ -31,7 +31,7 @@ const MainHero = () => {
             <div className="flex items-center justify-center ml-4 px-5">
               <a
                 href={mainHero.secondaryAction.href}
-                className="text-base font-medium text-secondary hover:underline md:text-lg"
+                className="text-base font-medium text-secondary md:text-lg"
               >
                 {mainHero.secondaryAction.text}
               </a>

@@ -1,6 +1,6 @@
 import React from "react";
-import config from "../config/index.json";
 import ReactPlayer from 'react-player';
+import config from "../config/index.json";
 
 const MainHero = () => {
   const { mainHero } = config;

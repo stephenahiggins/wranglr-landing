@@ -3,10 +3,10 @@ import React from "react";
 import About from "../components/About";
 import Analytics from "../components/Analytics";
 import Footer from "../components/Footer";
-import Navigation from "../components/Navigation";
 import HorizontalRule from "../components/HorizontalRule";
 import LazyShow from "../components/LazyShow";
 import MainHero from "../components/MainHero";
+import Navigation from "../components/Navigation";
 import Product from "../components/Product";
 
 const App = () => {

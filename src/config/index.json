@@ -24,7 +24,7 @@
   "mainHero": {
     "title": "Big data",
     "subtitle": "shouldn't be this hard.",
-    "description": "No one should need to know SQL, Python or a BI tool to get access to their organisation's data.",
+    "description": "No one should need to know complicated programming languages like SQL, Python or PowerBI to get access to their organisation's data.",
     "img": "/assets/images/master_screenshot.png",
     "videoUrl": "/assets/videos/wranglr_demo_video.mp4",
     "videoPlaceholderUrl": "/assets/images/video-placeholder.png",
@@ -92,7 +92,7 @@
   },
   "about": {
     "title": "Hi, I'm Stephen.",
-    "subtitle": "I created Wranglr because I wanted to bring the simplicity of spreadsheets to big data.\n\nEverywhere I've worked, I've seen everyday office heroes (mangers, researchers, analysts etc.) struggle to get access to the data they need to do their jobs.\n\nEmployees don't have time to learn about databases, or pick up new skills like SQL and PowerBI.\n\nWranglr is the big data tool for the everyday office hero!",
+    "subtitle": "I created Wranglr because I wanted to bring the simplicity of spreadsheets to big data.\n\nEverywhere I've worked, I've seen everyday office heroes (managers, researchers, analysts etc.) struggle to get access to the data they need to do their jobs.\n\nEmployees don't have time to learn about databases, or pick up new skills like SQL and PowerBI.\n\nWranglr is the big data tool for the everyday office hero!",
     "founderImg": {
       "src": "/assets/images/headshot_circle.png",
       "alt": "Stephen Higgins"

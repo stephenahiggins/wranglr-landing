@@ -1,5 +1,5 @@
 import React from "react";
-
+import CallToAction from "../components/CallToAction";
 import About from "../components/About";
 import Analytics from "../components/Analytics";
 import Footer from "../components/Footer";
@@ -36,6 +36,8 @@ const App = () => {
       <LazyShow>
         <>
           <About />
+          <HorizontalRule />
+          <CallToAction />
           <Footer />
         </>
       </LazyShow>

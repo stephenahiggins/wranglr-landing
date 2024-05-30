@@ -28,10 +28,6 @@
     "img": "/assets/images/master_screenshot.png",
     "videoUrl": "/assets/videos/wranglr_demo_video.mp4",
     "videoPlaceholderUrl": "/assets/images/video-placeholder.png",
-    "primaryAction": {
-      "text": "Join the waitlist",
-      "href": "https://forms.gle/W5v6iHcSgd9KsviZ7"
-    },
     "secondaryAction": {
       "text": "Contact us",
       "href": "mailto:info@wranglr.co"

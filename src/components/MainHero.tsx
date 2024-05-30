@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import config from "../config/index.json";
 
 const MainHero = () => {
-  const { mainHero } = config;
+  const { mainHero, callToAction } = config;
   const [videoLoading, setVideoLoading] = useState(false);
 
   useEffect(() => {
@@ -24,12 +24,12 @@ const MainHero = () => {
           <div className="mt-5 sm:mt-8 flex justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a
-                href={mainHero.primaryAction.href}
+                href={callToAction.href}
                 className="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-secondary hover:text-white md:py-4 md:text-lg"
                 target="_blank"
                 rel="noreferrer"
               >
-                {mainHero.primaryAction.text}
+                {callToAction.text}
               </a>
             </div>
             <div className="flex items-center justify-center ml-4 px-5">

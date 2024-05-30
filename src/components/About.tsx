@@ -7,7 +7,7 @@ const About = () => {
   const { socialMedia, title, subtitle, founderImg } = about;
 
   return (
-    <div id="about" className="max-w-7xl mx-10 px-4 sm:px-6 lg:px-8">
+    <div id="about" className="max-w-7xl mx-10 px-4 sm:px-6 lg:px-8 pb-10">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-wrap items-center justify-center">
           <div className="w-full sm:w-1/5 p-6 max-w-sm">
